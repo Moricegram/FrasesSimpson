@@ -43,9 +43,7 @@ function App() {
           <div className="my-5">
             <Spinner animation="border" variant="light" />
           </div>
-        ) : (
-          <Frase datosPersonaje={personaje}></Frase>
-        )}
+        ) : (<Frase datosPersonaje={personaje}></Frase>)}
         <Button variant="warning" onClick={consultarApi}>
           Obtener frase
         </Button>
